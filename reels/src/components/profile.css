@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.Header{
+    height: 5rem;
+    border-bottom: 5px solid gray;
+}
+
+.Main{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: calc(100vh-5rem);
+}
+
+img{
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+.pimg_container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.details{
+    text-align: center;
+    /* background-color: aquamarine; */
+    border: 1rem;
+}
+
+.content{
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-size: large;
+    
+
+}
+
+.bold_text{
+    font-weight: bold;
+}

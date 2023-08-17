@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+//  to convert jsx to javascript
+            function Child1({name="Mrinal",age="35"}){
+                return(
+                    <div><h1>Hello {name}</h1>
+                        <h1>Age {age}</h1></div>
+                    
+                )
+            }
+            
+            function Child2({name="Zen",age="32"}){
+                return (
+                    <> 
+                     <h1> Hi {name}</h1>
+                     <h1> Bye {age}</h1>
+                    </>
+                )
+            }
+
+            function Parent(){
+
+                return(
+                    <> <Child1 name="Utsav" age = "23"/>
+                        <Child2 age="22"/>
+                    </>
+                )
+            }
+
+
+
+            ReactDOM.render(<Parent/>,document.getElementById("root"));
+
+    </script>
+</body>
+</html>
