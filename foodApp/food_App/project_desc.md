@@ -34,7 +34,7 @@
     * Database server : MongoDB Atlas 
 * Futher improvement : videos, feedback ,meal level 
 
-## 9/aug/2022
+## Milestone 2
 * How to send automated Email via nodejs -> nodemailer
   * email : html and css -> inline , modern css doesnot work in email
   * mail send -> nodemailer, transport -> gmail
@@ -62,12 +62,12 @@
      * Signup Page:  completed
      * Login Page : Completed   
 
-## 11/aug/2022
+## Milestone 3
 * login , signup (backend frontend)->bugs -> status code addition
  * Profile Page -> ui -> backend -> ui link
  * Forget password and reset Password -> ui
 
-## 21/aug/2022
+## Milestone 4
  * Rectifying status code error ->axios  ✔
  * Adding Plans to your backend :(skeleteon code)
   1. We are using mvc architecture 
@@ -81,8 +81,9 @@
  * Usage : send data to a particular and following your schema  
  * Plans Schema : name,duration,price:discount  
  * All Plans Page creation
- * deployment 
-# 22/aug/2022
+ * deployment
+ * 
+# Milestone 5
  * To be added later :
   * TO add review feature
     * create reviewModel :  
@@ -99,7 +100,8 @@
            the help of current rating 
       * get review 
         * Find -> populate your planId and userId to get data about them
-# 4th/sep/22
+          
+## Milestone 7
 * Deployment 
 * Bought plan + integration razorpay-> fall back route
 *  HomePage completion 
