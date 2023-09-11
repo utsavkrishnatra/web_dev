@@ -34,4 +34,15 @@ Notifications keep users informed and engaged.
 Responsive Design: The user interface is designed to be responsive, adapting to various screen sizes and devices, ensuring a seamless
 experience for users on both desktop and mobile.
 
+Part A
+
+![Insta_part_1](https://github.com/utsavkrishnatra/web_dev/blob/main/reels/public/insta_part_1.png) 
+
+Part B
+
+![Insta_part_2](https://github.com/utsavkrishnatra/web_dev/blob/main/reels/public/insta_part_2.png)
+
+Part C
+
+![Insta_part_3](https://github.com/utsavkrishnatra/web_dev/blob/main/reels/public/insta_part_3.png)
 
